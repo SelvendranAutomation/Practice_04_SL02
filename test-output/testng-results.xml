@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="KSRTC Test Automation Suite" duration-ms="207434" started-at="2023-10-13T11:12:47Z" finished-at="2023-10-13T11:16:14Z">
+    <groups>
+    </groups>
+    <test name="KSRTC Test Cases" duration-ms="207434" started-at="2023-10-13T11:12:47Z" finished-at="2023-10-13T11:16:14Z">
+      <class name="com.qa.ksrtc.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.ksrtc.tests.HomePageTest@598067a5]" name="setUp" is-config="true" duration-ms="35931" started-at="2023-10-13T11:12:47Z" finished-at="2023-10-13T11:13:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyManinPageOfKSRTC()[pri:0, instance:com.qa.ksrtc.tests.HomePageTest@598067a5]" name="verifyManinPageOfKSRTC" duration-ms="966" started-at="2023-10-13T11:13:23Z" finished-at="2023-10-13T11:13:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManinPageOfKSRTC -->
+        <test-method status="PASS" signature="verifySignIn()[pri:1, instance:com.qa.ksrtc.tests.HomePageTest@598067a5]" name="verifySignIn" duration-ms="20827" started-at="2023-10-13T11:13:24Z" finished-at="2023-10-13T11:13:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignIn -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.ksrtc.tests.HomePageTest@598067a5]" name="verifyLogin" duration-ms="17783" started-at="2023-10-13T11:13:50Z" data-provider="getData" finished-at="2023-10-13T11:14:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestPWD@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TestUser1@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.ksrtc.tests.HomePageTest@598067a5]" name="verifyLogin" duration-ms="11274" started-at="2023-10-13T11:14:08Z" data-provider="getData" finished-at="2023-10-13T11:14:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestPWD@124]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TestUser2@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.qa.ksrtc.tests.HomePageTest@598067a5]" name="verifyLogin" duration-ms="8500" started-at="2023-10-13T11:14:19Z" data-provider="getData" finished-at="2023-10-13T11:14:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestPWD@125]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TestUser3@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="verifyForgotPassword(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.ksrtc.tests.HomePageTest@598067a5]" name="verifyForgotPassword" duration-ms="27837" started-at="2023-10-13T11:14:27Z" data-provider="getData" finished-at="2023-10-13T11:14:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestPWD@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TestUser1@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPassword -->
+        <test-method status="PASS" signature="verifyForgotPassword(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.ksrtc.tests.HomePageTest@598067a5]" name="verifyForgotPassword" duration-ms="44169" started-at="2023-10-13T11:14:55Z" data-provider="getData" finished-at="2023-10-13T11:15:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestPWD@124]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TestUser2@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPassword -->
+        <test-method status="PASS" signature="verifyForgotPassword(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.qa.ksrtc.tests.HomePageTest@598067a5]" name="verifyForgotPassword" duration-ms="32649" started-at="2023-10-13T11:15:40Z" data-provider="getData" finished-at="2023-10-13T11:16:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestUser3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestPWD@125]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TestUser3@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.ksrtc.tests.HomePageTest@598067a5]" name="tearDown" is-config="true" duration-ms="2139" started-at="2023-10-13T11:16:12Z" finished-at="2023-10-13T11:16:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.ksrtc.tests.HomePageTest -->
+    </test> <!-- KSRTC Test Cases -->
+  </suite> <!-- KSRTC Test Automation Suite -->
+</testng-results>
